@@ -1,0 +1,25 @@
+2024-12-15 19:14:59 - Database connection established successfully.
+2024-12-15 19:14:59 - Application started.
+2024-12-15 19:14:59 - GiftDao initialized with DatabaseConnector.
+2024-12-15 19:14:59 - GiftService initialized with GiftDao.
+2024-12-15 19:14:59 - GiftDao and GiftService initialized successfully.
+2024-12-15 19:14:59 - Initializing Menu with GiftService and Scanner.
+2024-12-15 19:14:59 - Populating menu with available commands.
+2024-12-15 19:15:00 - Menu populated successfully.
+2024-12-15 19:15:00 - Menu initialized, starting the menu loop.
+2024-12-15 19:15:00 - Displaying the menu to the user.
+2024-12-15 19:15:00 - Waiting for user input.
+2024-12-15 19:15:04 - User selected option: 1
+2024-12-15 19:15:04 - Executing command for option: 1
+2024-12-15 19:15:11 - Attempting to add a gift with name: вцвцц
+2024-12-15 19:15:11 - Adding new gift with name: вцвцц
+2024-12-15 19:15:11 - Executing update query: INSERT INTO Gifts (GiftName, TotalWeight) VALUES (?, 0) with params: [вцвцц]
+2024-12-15 19:15:11 - Update query executed successfully. Rows affected: 1
+2024-12-15 19:15:11 - Gift 'вцвцц' added successfully.
+2024-12-15 19:15:11 - Gift 'вцвцц' added successfully!
+2024-12-15 19:15:11 - Displaying the menu to the user.
+2024-12-15 19:15:11 - Waiting for user input.
+2024-12-15 19:15:15 - User selected option: 0
+2024-12-15 19:15:15 - Exit option selected. Exiting menu...
+2024-12-15 19:15:15 - Application ended.
+2024-12-15 19:15:15 - Database connection closed successfully.
